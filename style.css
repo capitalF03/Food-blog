@@ -1,0 +1,153 @@
+body {
+  margin: 0px;
+  font-family: "Sarabun", sans-serif;
+}
+* {
+  box-sizing: border-box;
+}
+.navbar {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+}
+.navbar ul {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  background-color: #5e4ae3;
+}
+h1 {
+  margin: 0;
+}
+.navbar ul li {
+  display: inline-block;
+}
+.navbar li a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 20px 20px;
+  font-size: 15px;
+  letter-spacing: 2px;
+}
+.navbar li a:hover {
+  background-color: #3929a3;
+}
+
+.main_section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 590px;
+  background-image: linear-gradient(#2d737c, #588b8b), url(images/grill.jpg);
+  background-size: cover;
+  background-blend-mode: multiply;
+}
+
+.main_text {
+  color: white;
+  text-align: center;
+}
+
+.main_text h1 {
+  font-size: 80px;
+  font-weight: 100px;
+}
+
+.main_text p {
+  font-size: 20px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #353535;
+  color: #fff;
+  text-decoration: none;
+  padding: 20px 25px;
+  border-radius: 50px;
+  font-size: 15px;
+  letter-spacing: 2px;
+  transition: all 0.5s;
+}
+
+.btn:hover {
+  background-color: #479add;
+}
+
+.holding_container {
+  width: 100%;
+  display: flex;
+  background-color: #fff;
+  box-sizing: border-box;
+  flex-direction: row;
+}
+.internal_container1 {
+  flex: 1;
+  background-color: #e2df3d;
+  padding: 30px;
+  font-size: 18px;
+}
+.internal_container2 {
+  flex: 1;
+  background-color: #e2df3d;
+  padding: 30px;
+  font-size: 18px;
+}
+.internal_container3 {
+  flex: 1;
+  background-color: #e2df3d;
+  padding: 30px;
+  font-size: 18px;
+}
+
+@media screen and (max-width: 768px) {
+  .holding_container {
+    flex-direction: column;
+  }
+}
+.contact_us {
+  padding: 25;
+  background-color: #26a590;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 25px;
+  color: #fff;
+}
+.btn_sub {
+  display: inline-block;
+  background-color: #ffffff;
+  color: #479add;
+  text-decoration: none;
+  padding: 10px 25px;
+  border-radius: 50px;
+  font-size: 20px;
+  letter-spacing: 2px;
+  transition: all 0.5s;
+}
+.btn_sub:hover {
+  background-color: #353535;
+}
+.inpt {
+  display: flex;
+  background-color: #26a590;
+  justify-content: center;
+  align-content: center;
+  padding-top: 10px;
+}
+input {
+  width: 300px;
+  height: 40px;
+  border-radius: 15px;
+  appearance: none;
+  box-sizing: border-box;
+  transition: all 0.2s ease-in-out;
+  appearance: none;
+  -webkit-appearance: none;
+}
